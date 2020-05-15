@@ -27,4 +27,25 @@ body {
 /* Navbar Style */
 nav {
     background-color: #C65252;
+    height: 70px;
+}
+
+nav > ul{
+    position: absolute;
+    top: 230px;
+    right: 90px;
+    margin: 0;
+    padding: 18px;
+}
+
+.nav_link{
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav_link > a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
 }
