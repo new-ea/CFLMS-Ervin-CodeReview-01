@@ -1,0 +1,30 @@
+/* reset body properties */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header logo and text */
+.logo_box {
+    background-color: #CABBB7;
+    position: relative;
+    height: 230px;
+}
+
+.logo_box > h2 {
+    margin-top: 0;
+    padding-top: 110px;
+    padding-left: 200px;
+    font-size: 2.2em;
+}
+
+.logo_box > img {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+
+/* Navbar Style */
+nav {
+    background-color: #C65252;
+}
