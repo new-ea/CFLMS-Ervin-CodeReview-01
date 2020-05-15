@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Blog</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
@@ -22,27 +23,33 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1>This is my first website :D</h1>
+        <div class="main_header">
+            <h1>This is my first <br> website :D</h1>
         </div>
-        <div>
+        <article class="blog_post1">
             <figure>
-                <img src="img/Phone.png" alt="Phone" style="width:100%">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+                <img src="img/Phone.png" alt="Phone">
+                <p class="img_description">Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</p>
             </figure>
-            <figure>
-                <img src="img/Debit_card_ATM.jpg" alt="ATM" style="width:40%">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-            </figure>
-            <figure>
-                <img src="img/Taxify-Scooters.jpg" alt="Scooter" style="width:40%">
-                <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
-            </figure>
-        <div>
+        </article> 
+        <div class="container">
+            <article class="blog_post2"> 
+                    <img src="img/Debit_card_ATM.jpg" alt="ATM">
+                    <p class="img_description">Police are invetigating three ATM explosions in two Florida countries</p>
+            </article>
+            <article class="blog_post3">
+                    <img src="img/Taxify-Scooters.jpg" alt="Scooter">
+                    <p class="img_description">E-Scooter firm Bolt pulls out of 12 <br> cities</p>
+            </article>
+        </div>
     </main>
     <footer>
-        <img src="img/logo.png" alt="Logo Code Factory" width="100px" height="50px">
-        <p>Ervin CodeFactory 2020</p>
+        <div>
+            <img src="img/logo.png" alt="Logo Code Factory" width="380px" height="100px">
+        </div>
+        <div>
+            <p id="copyright_txt">Ervin CodeFactory 2020</p>
+        </div>
     </footer>
 </body>
 </html>
