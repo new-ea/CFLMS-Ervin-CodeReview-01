@@ -1,3 +1,6 @@
+/********************************
+CONTACT US PAGE
+********************************/
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -45,13 +48,14 @@ label {
 }
 
 input {
-    width: 500px;
+    width: 60%;
     height: 25px;
     border-radius: 5px;
 }
 
 textarea {
-    width: 500px;
+    width: 60%;
+    border-radius: 5px;
 }
 
 .btn {
