@@ -4,3 +4,14 @@
     font-size: 2em;
     text-decoration: underline;
 }
+
+.about_txt {
+    margin: 0 auto;
+    width: 70%;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.2em;
+    margin-top: 2px;
+    letter-spacing: 0.05em;
+}
+
