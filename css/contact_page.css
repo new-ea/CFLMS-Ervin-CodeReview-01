@@ -1,10 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
 }
 
 /* Style for Contact Form */
 form {
+    text-align: center;
     background-color: #CABBB7;
     width: 50%;
     margin: 30px auto;
@@ -13,7 +13,7 @@ form {
 }
 
 /* Header */
-.main_header {
+.main_header{
     text-align: center;
     padding-top: 10px;
     font-weight: 700;
@@ -54,13 +54,12 @@ textarea {
     width: 500px;
 }
 
-a {
-    text-decoration: none;
-    font-size: 1.5em;
-    font-weight: 700;
+.btn {
     background-color: #C65252;
     color: white;
     border-radius: 5px;
-    padding: 7px;
     width: 200px;
+    height: 40px;
+    font-size: 1.1em;
+    
 }

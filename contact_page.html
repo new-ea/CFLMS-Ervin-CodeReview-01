@@ -1,55 +1,75 @@
 <!DOCTYPE html>
-
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact Us</title>
-	<link rel="stylesheet" href="css/contact_page.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-
-<form>
-	<div class="header_logo">
-		<img src="img/logo.png" alt="Logo Code Factory" width="380px" height="100px">
-	</div>
-    <h1 class="main_header">Contact Us</h1>
-	<fieldset>
-		<legend>Data:</legend>  
-
-		<label>Name:</label><br>
-		<input type="text" name="Name"><br>
-
-		<label>Last name:</label><br>
-		<input type="text" name="Last name"><br>
-
-		<label>Address:</label><br>
-		<input type="text" name="Address"><br>
-
-		<label>ZIP:</label><br>
-		<input type="number" name="ZIP"><br>
-
-		<label>Town:</label><br>
-		<input type="text" name="Town"><br>
-
-	</fieldset>
-	<fieldset>
-		<legend>Choose your Password:</legend>
-
-		<label>Password:</label><br>
-		<input type="password" name="Password"><br>
-
-		<label>Confirm Password:</label><br>
-		<input type="password" name="Confirm Password">
-	</fieldset>
-	<fieldset>
-		<label>Your Comment</label><br>
-	    <textarea name="message" rows="10" cols="30"></textarea>
-	    <br>
-	    <input type="submit" value="Submit your data">
-	</fieldset>
-</form>
-<a href="index.html">Return to Homepage</a>
+    <header>
+        <div class="logo_box">
+            <h2>Ervin Full-Stack Web Developer</h2>
+            <img src="img/logo.png" alt="Logo Code Factory" width="480px" height="150px">
+        </div>
+        <nav>
+            <ul>
+                <li class="nav_link"><a href="index.html">Home</a></li>
+                <li class="nav_link"><a href="blog_page.html">Blog</a></li>
+                <li class="nav_link"><a href="about_me_page.html">About Me</a></li>
+                <li class="nav_link"><a href="contact_page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+	<form>
+		<div class="header_logo">
+			<img src="img/logo.png" alt="Logo Code Factory" width="280px" height="80px">
+		</div>
+		<h1 class="main_header">Contact Us</h1>
+		<fieldset>
+			<legend>Data:</legend>  
+	
+			<label>Name:</label><br>
+			<input type="text" name="Name"><br>
+	
+			<label>Last name:</label><br>
+			<input type="text" name="Last name"><br>
+	
+			<label>Address:</label><br>
+			<input type="text" name="Address"><br>
+	
+			<label>ZIP:</label><br>
+			<input type="number" name="ZIP"><br>
+	
+			<label>Town:</label><br>
+			<input type="text" name="Town"><br>
+	
+		</fieldset>
+		<fieldset>
+			<legend>Choose your Password:</legend>
+	
+			<label>Password:</label><br>
+			<input type="password" name="Password"><br>
+	
+			<label>Confirm Password:</label><br>
+			<input type="password" name="Confirm Password">
+		</fieldset>
+		<fieldset>
+			<label>Your Comment</label><br>
+			<textarea name="message" rows="10" cols="30"></textarea>
+			<br>
+			<input class="btn" type="submit" value="Submit your data">
+		</fieldset>
+	</form>
+    <footer>
+        <div>
+            <img src="img/logo.png" alt="Logo Code Factory" width="380px" height="100px">
+        </div>
+        <div>
+            <p id="copyright_txt">Ervin CodeFactory 2020</p>
+        </div>
+    </footer>
 </body>
 </html>
