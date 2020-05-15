@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Style for Contact Form */
+form {
+    background-color: #CABBB7;
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 5px 10px darkslategrey;
+    border-radius: 5px;
+}
+
+/* Header */
+.main_header {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 2.5em;
+    background-color: #C65252;
+    color: white;
+    height: 60px;
+}
+
+.header_logo {
+    padding-top: 20px;
+}
+
+/* input & label */
+
+fieldset {
+    margin-top: 10px;
+}
+
+legend {
+    background-color: #C65252;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    width: 200px;
+}
+label {
+    font-weight: 700;
+}
+
+input {
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color: #C65252;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    width: 200px;
+}
