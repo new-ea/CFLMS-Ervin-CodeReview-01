@@ -125,3 +125,16 @@ footer {
      padding-top: 20px;
      letter-spacing: 0.15em;
 }
+
+/* used to make the logo_box header bit more responsiv */
+@media screen and (max-width: 1330px) {
+    .logo_box > h2 {
+      padding-left: 10px;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .logo_box > h2 {
+      display: none;
+    }
+}
+
